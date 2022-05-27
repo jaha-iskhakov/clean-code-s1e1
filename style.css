@@ -18,8 +18,11 @@
 }
 
 @media (max-width:768px) {
-  .main-wrapper { text-align: center;
+
+  .main-wrapper { 
+    text-align: center;
 }
+
 }
 .main-page {
   display: block;
