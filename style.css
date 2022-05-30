@@ -1,41 +1,41 @@
 /* Basic Style */
-.page {
+.main {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
-.main-wrapper {
+.main__wrapper {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.main-wrapper img {
+.main__wrapper img {
   width: 100%;
 }
-.main-wrapper, 
-.more-inf {
+.main__wrapper, 
+.more__inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .main-wrapper { 
+  .main__wrapper { 
     text-align: center;
 }
 
 }
-.main-page {
+.main__page {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.task__item {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.task {
   display: flex;
 }
 ul {
@@ -144,11 +144,11 @@ ul li input[type=text] {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.edit__mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.edit__mode label {
   display: none;
 }
